@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8"/>
+		<link rel="icon"  href="voiture/logo.png" width="20">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="corps">
+			<div id="titre">
+			<img id="logo" src="logo.png" width="220" height="50">
+				<ul id="menu">
+					<li class="menu"><a id="lien1" href="../Menu Principale/index.html">Menu</a></li>
+					<li class="menu" id="categorie" ><a id="lien2" href="../CV/index.html">Contacts</a></li>
+					<li class="menu" ><a id="lien3" href="../Galerie/index.html">Galeries</a></li>
+					<li class="menu" > <a id="lien4" href="../Forums/index.html">Forums</a></li>
+				</ul>
+			</div>
+			
+			
+		
+			<div id="voiture">
+				<figure>
+					<img  class="img1" src="voiture/image 1.jpg" width="1000" height="300">
+					<img  class="img2" src="voiture/image 2.jpg" width="1000" height="300">
+					<img  class="img3" src="voiture/image 3.jpg" width="1000" height="300">
+					<img  class="img4" src="voiture/image 4.jpg" width="1000" height="300">
+				</figure>
+			</div> 
+
+			<div id="droite">
+				 <div>
+					 <div id="boite">
+						<div id="fond"></div>
+						<div id="minutes"></div>
+						<div id="heures"></div>
+						<div id="secondes"></div>	
+					</div>
+
+					<div id="time"></div>
+					</div>
+
+					<div id="categ">
+						<ul>
+							<li class="menuNav" id="menu1">Audi</li>
+							<ul class="sousMenu" id="smenu1">
+								<li><a href="../audi/audi.html">Serie A</a></li>
+								<li><a href="../audi/audi.html">Serie S</a></li>
+								<li><a href="../audi/audi.html">Serie Q</a></li>
+							</ul>
+							<li class="menuNav" id="menu2">BMW</li>
+							<ul class="sousMenu" id="smenu2">
+								<li><a href="../Tsanta/index.html">Serie 1 à 7</a></li>
+								<li><a href="../Tsanta/index.html">Serie M</a></li>
+								<li><a href="../Tsanta/index.html">Serie i</a></li>
+								<li><a href="../Tsanta/index.html">Serie X</a></li>
+							</ul>
+							<li class="menuNav" id="menu3">Porsche</li>
+							<ul class="sousMenu" id="smenu3">
+								<li><a href="../Vatany2/porsche.html">718</a></li>
+								<li><a href="../Vatany2/porsche.html">911 Panamera</a></li>
+								<li><a href="../Vatany2/porsche.html">911 Carrera</a></li>
+								<li><a href="../Vatany2/porsche.html">Macan</a></li>
+							</ul>
+							<li class="menuNav" id="menu4">Volkswagen</li>
+							<ul class="sousMenu" id="smenu4">
+								<li><a href="../test Pine/index.html">Golf</a></li>
+								<li><a href="../test Pine/index.html">Passat</a></li>
+								<li><a href="../test Pine/index.html">Beetle</a></li>
+							</ul>
+							<li id='lien'><a href="../Equation 2/index.html" class="menuNav">Systemes d'équation</a></li>
+						</ul>
+					</div>
+					<input type="text" placeholder="Rechercher" id="recherche"/>
+				</div>
+		
+
+			<!-- Ito no kitianareo -->
+			<div id="gauche">
+				<h2 id="titr">Resolution de systèmes d'équations</h2>
+				
+                <div id="equation" onmouseover="flou()" onmouseout="tsyFlou()">
+                    <textarea id="resp"> Entrez les equations à résoudre </textarea>
+                    <div class="ligne">
+                        <input type="text" id="a0" size="1" class="formul" /> <label class="mot">x +</label>
+                        <input type="text" id="b0" size="1" class="formul" /> <label class="mot">y +</label>
+                        <input type="text" id="c0" size="1" class="formul" /> <label class="mot">z +</label>
+                        <input type="text" id="d0" size="1" class="formul" /> <label class="mot">t</label>
+                        <label class="mot">=</label> <input type="text" id="w0" size="1" class="formul" />
+                    </div>
+
+                    <!--deuxieme ligne du systeme d'equation-->
+                    <div class="ligne">
+                        <input type="text" id="a1" size="1" class="formul" /> <label class="mot">x +</label>
+                        <input type="text" id="b1" size="1" class="formul"> <label class="mot">y +</label>
+                        <input type="text" id="c1" size="1" class="formul" /> <label class="mot">z +</label>
+                        <input type="text" id="d1" size="1" class="formul" /> <label class="mot">t </label>
+                        <label class="mot">=</label> <input type="text" id="w0" size="1" class="formul" />
+                    </div>
+
+                    <!--troisieme ligne du systeme d'equation-->
+                    <div class="ligne">
+                        <input type="text" id="a2" size="1" class="formul" /> <label class="mot">x +</label>
+                        <input type="text" id="b2" size="1" class="formul" /> <label class="mot">y +</label>
+                        <input type="text" id="c2" size="1" class="formul" /> <label class="mot">z +</label>
+                        <input type="text" id="d2" size="1" class="formul" /> <label class="mot">t</label>
+                        <label class="mot">=</label> <input type="text" id="w0" size="1" class="formul" />
+                    </div>
+
+                    <!--quatrieme ligne du systeme d'equation-->
+                    <div class="ligne">
+                        <input type="text" id="a3" size="1" class="formul" /> <label class="mot">x +</label>
+                        <input type="text" id="b3" size="1" class="formul" /> <label class="mot">y +</label>
+                        <input type="text" id="c3" size="1" class="formul" /> <label class="mot">z +</label>
+                        <input type="text" id="d3" size="1" class="formul" /> <label class="mot">t</label>
+                        <label class="mot">=</label> <input type="text" id="w0" size="1" class="formul" />
+                    </div>
+
+                    <div id="bout">
+                        <button onclick=' equation()' class="bouton"> Résoudre </button>
+                        <button onclick='supprimer()' class="bouton"> Vider </button>
+                    </div>
+                </div>
+			</div>
+
+			<!-- Footer  -->
+			<div id="footer">
+				<div id="foot">
+					<img src="../img (1).png">
+					<img src="../img (2).png">
+					<img src="../img (3).png">
+					<img src="../img (8).png">
+					<img src="../img (9).png">
+				</div>
+
+				<div id="copy">Copyright &copy Septembre 2016	</div>
+			</div>
+		</div>
+
+		<!-- Ity no javascript -->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

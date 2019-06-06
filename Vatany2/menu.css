@@ -1,0 +1,156 @@
+#titre{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+	max-width: 900px;
+	box-shadow: 0px 0px 8px black;
+	height: 60px;
+	background-color: #292829;
+}
+
+#menu{
+	position: relative;
+	left: 308px;
+
+}
+
+#menu .menu
+{
+	list-style-type: none; 
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 1.3em;
+	margin-left: 55px;
+
+}
+
+.menu a{
+	text-decoration: none;
+	color:#d8dff5;
+
+}
+
+#logo{
+	position: absolute;
+	top: 0px;
+}
+
+#slogan{
+	position: absolute;
+	top: -3px;
+	left: 85px ;
+	font-size: 1.3em;
+	color:#d8dff5;
+}
+
+#bmw{
+	position: relative;
+	top:1px;
+	left: 216px;
+}
+
+#droite{
+	background-color: #292829;
+	box-shadow: 0px 0px 8px black;
+	border: 1px solid black;
+	position: relative;
+	height: 400px;
+	width: 200px;
+	left:915px;
+}
+
+#recherche{
+	font-size: 1em;
+	position: relative;
+	top: 45px;
+	left: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-image: url("button.png") no-repeat	;
+}
+
+#corps2{
+	background-color: #292829;
+	width: 695px;
+	height: 400px;
+	box-shadow: 0px 0px 8px black;
+	color:#d8dff5;
+	position: absolute;
+	top: 252px;
+	left: 224px
+
+}
+
+/*horloge*/
+#boite
+{
+	width:130px;
+	height:130px;
+	z-index:0;
+	position:relative;
+
+}
+
+#fond
+{
+	background-image:url('andrana5.png') ;
+	width:130px;
+	height:130px;
+	position:absolute;
+	left:40px;
+	top: 55px;
+	z-index:1;
+	border-radius: 70px;
+	box-shadow: 2px;
+}
+
+#heures
+{
+background-image:url('hour.png');
+width:130px;
+height:130px;
+position:absolute;
+left:40px;
+top: 55px;
+z-index:2;
+transform: rotate(0deg);
+}
+
+#minutes
+{
+background-image:url('min.png');
+width:130px;
+height:130px;
+position:absolute;
+left:40px;
+top: 55px;
+z-index:3;
+transform: rotate(0deg);
+}
+
+#secondes
+{
+background-image:url('sec.png');
+width:130px;
+height:130px;
+position:absolute;
+left:40px;
+top: 55px;
+z-index:4;
+transform: rotate(0deg);
+}
+
+#time{
+	font-size: 1.5em;
+	border :1px solid #d8dff5	;
+	border-radius: 10px;
+	position: relative;
+	top: -120px;
+	left: -400px;
+	width: 120px;
+	margin-left: 435px;
+	text-align: center;
+	color: #d8dff5;
+}
+/*horloge*/

@@ -1,0 +1,449 @@
+#foot
+{
+  position: relative;
+  left:400px;
+  top: 15px;
+}
+
+#copy{
+  position: relative;
+  left: 390px;
+  top: 20px;
+}  body
+  {
+    background:url('fond1.jpg') no-repeat fixed;
+    background-size: 100% 100% ;
+    color : 
+  }
+
+  /**************Animation Sary*****************/
+  figure img
+  {
+    position: absolute;
+    border-radius: 10px;
+
+  }
+
+  .img1
+  {
+    -moz-animation-name: clign1;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration:20.5s;
+    z-index: ;
+  }
+
+  .img2
+  {
+     -moz-animation-name: clign2;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration:20.5s;
+    z-index: ;
+  }
+
+.img3
+  {
+     -moz-animation-name: clign3;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration:20.5s;
+    z-index: ;
+  }
+
+.img4
+  {
+     -moz-animation-name: clign4;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration:20.5s;
+    z-index: ;
+  }
+
+@-moz-keyframes clign1
+{
+  0%{opacity: 1;}
+  19.51219512%{opacity: 1;}
+  26.82926829%{opacity: 0;}
+  46.34146441%{opacity: 0;}
+  53.65853658%{opacity: 0;}
+  73.1707317%{opacity: 0;}
+  81.48780487%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes clign2
+{
+  0%{opacity: 0;}
+  19.51219512%{opacity:0 ;}
+  26.82926829%{opacity: 1;}
+  46.34146441%{opacity:1 ;}
+  53.65853658%{opacity: 0;}
+  73.1707317%{opacity: 0;}
+  81.48780487%{opacity: 0;}
+  100%{opacity:0 ;}
+}
+
+@-moz-keyframes clign3
+{
+  0%{opacity: 0;}
+  19.51219512%{opacity: 0;}
+  26.82926829%{opacity: 0;}
+  46.34146441%{opacity:0 ;}
+  53.65853658%{opacity:1 ;}
+  73.1707317%{opacity: 1;}
+  81.48780487%{opacity:0 ;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes clign4
+{
+  0%{opacity:0 ;}
+  19.51219512%{opacity:0 ;}
+  26.82926829%{opacity: 0;}
+  46.34146441%{opacity: 0;}
+  53.65853658%{opacity: 0;}
+  73.1707317%{opacity:0 ;}
+  81.48780487%{opacity:1 ;}
+  100%{opacity: 1;}
+}
+/********************Animation Sary Tapitra***************************/
+
+#titre{
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0px 0px 8px #880F11;
+  height: 60px;
+  background-color: #292829;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Brush Script MT';
+  font-size: 1.1em;
+}
+
+#logo{
+  position: relative;
+  top: 5px;
+  left: 15px;
+  border-radius: 12px 12px 2px 2px;
+}
+
+#menu
+{
+  width: 548px;
+  position: absolute;
+  top: -2px;
+  left: 400px;
+}
+
+#menu .menu
+{
+  list-style-type: none; 
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 1.3em;
+  margin-left: 55px;
+}
+
+.menu a{
+  text-decoration: none;
+  color:#d8dff5;
+}
+
+.menu a:hover{
+  color :#c10001;
+}
+
+#voiture{
+  margin: auto;
+  position: relative;
+  top: -14.5px;
+  left: -40px;
+  width: 1000px;
+}
+
+/********************************************************/
+
+/***********************************horloge*****************************/
+#boite
+{
+  width:130px;
+  height:130px;
+  z-index:0;
+  position:relative;
+
+}
+
+#fond
+{
+  background-image:url('andrana5.png') ;
+  width:130px;
+  height:130px;
+  position:absolute;
+  left:40px;
+  top: 55px;
+  z-index:1;
+  border-radius: 70px;
+}
+
+#heures
+{
+  background-image:url('hour.png');
+  width:130px;
+  height:130px;
+  position:absolute;
+  left:40px;
+  top: 55px;
+  z-index:2;
+  transform: rotate(0deg);
+}
+
+#minutes
+{
+  background-image:url('min.png');
+  width:130px;
+  height:130px;
+  position:absolute;
+  left:40px;
+  top: 55px;
+  z-index:3;
+  transform: rotate(0deg);
+}
+
+#secondes
+{
+  background-image:url('sec.png');
+  width:130px;
+  height:130px;
+  position:absolute;
+  left:40px;
+  top: 55px;
+  z-index:4;
+  transform: rotate(0deg);
+}
+
+#time{
+  font-size: 1.5em;
+  border :1px solid #d8dff5 ;
+  border-radius: 10px;
+  position: relative;
+  top: -120px;
+  left: -400px;
+  width: 120px;
+  margin-left: 435px;
+  text-align: center;
+  color: #d8dff5;
+}
+
+#time:hover
+{
+  background-color: #c10001;
+}
+/************************************************horloge************************************/
+
+/*******************************categorie*************************************/
+#droite{
+  background-color: #292829;
+  box-shadow: 0px 0px 8px #880F11;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  width: 200px;
+  left:975px;
+  top: 373px;
+  height: 500px;
+}
+
+#categ{
+  position: relative;
+  top:12px;
+  left: -20px;
+}
+
+.menuNav 
+{
+  display: block;
+  border:2px inset #d8dff5;
+  text-align: center;
+  border-radius: 10px;
+  background-color:#af2324 ;
+  margin-top: 5px;
+  color: #d8dff5;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.menuNav:hover
+{
+	cursor: alias;
+}
+
+.sousMenu
+{
+   list-style-type: none;
+}
+
+.sousMenu a
+{
+ 
+  color: #968d8d;
+  text-decoration: none;
+}
+
+#li1
+{
+  list-style-type: none;
+}
+
+#recherche
+{
+  position: relative;
+  left: 20px;
+  top: 80px;
+  border:2px outset #880F11;
+  text-align: center;
+  color: #880F11;
+  background-color: #d8dff5;
+  border-radius: 10px;
+  height: 20px;
+  width: 155px;
+}
+
+/*****************************************fin***********************************/
+
+/*Ito ihani le kitianareo*/
+#gauche
+{
+  position: relative;
+  left: 165px;
+  top: 289px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 797px;
+  box-shadow: 0px 0px 8px #880F11;
+  background-color: #292829;
+}
+
+#gauche h2
+{
+  font-size: 1.9em;
+  text-align:center;
+  color: #d8dff5;
+  border:2px inset #d8dff5;
+  border-radius:10px;
+  width: 760px;
+  margin-left: 15px;
+  font-family: papyrus;
+  font-size: 1.95em;
+  word-spacing: 3px;
+}
+
+#cont
+{
+  position:relative;
+  overflow: hidden;
+  max-width:300px;
+  top:-15px;
+  left: 280px;
+  height: 450px;
+  border:0px inset black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #c4bfbf;
+}
+
+
+#conteneur
+{
+  position: relative;
+  width:400%;
+  -webkit-animation-duration: 24s;
+  -webkit-animation-name: slider;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-duration: 24s;
+  -moz-animation-name: slider;
+  -moz-animation-iteration-count: infinite;
+  padding: 0;
+  margin: 0;
+}
+
+.chacun
+{
+  width:25%;
+  float: left;
+  height:350px;
+}
+
+.chacun p
+{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-family: Papyrus;
+  color: #d8dff5;
+  text-align: center;
+}
+
+.image
+{
+  border-radius: 10px;
+  position: relative;
+  left: 55px;
+  margin-top: 15px;
+}
+
+@-moz-keyframes slider
+{
+    0% {left: 0%;}
+    20% { left: 0% ;}
+    24% { left: -100% ;}
+    44% { left: -100% ;}
+    48% { left: -200% ;}
+    68% { left: -200% ;}
+    72% { left: -300% ;}
+    92% { left: -300% ;}
+    96% {left: -320% ;}
+    100% {left: 0%;}
+}
+
+@-webkit-keyframes slider
+{
+    0% {left: 0%;}
+    20% { left: 0% ;}
+    24% { left: -100% ;}
+    44% { left: -100% ;}
+    48% { left: -200% ;}
+    68% { left: -200% ;}
+    72% { left: -300% ;}
+    92% { left: -300% ;}
+    96% {left: -400% ;}
+    100% {left: 0%;}
+}
+
+/**********************************************************************************/
+
+#footer
+{
+  position: relative;
+  top: 290px;
+  left: 165px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 1000px;
+  height: 100px;
+  box-shadow: 0px 0px 8px #880F11;
+  background-color: #292829 ;
+}
+
+#foot
+{
+  position: relative;
+  left:400px;
+  top: 15px;
+}
+
+#copy{
+  position: relative;
+  left: 370px;
+  top: 20px;
+  color:#FFF;
+  font-size: 1.2em;
+}
