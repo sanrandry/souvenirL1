@@ -1,0 +1,1 @@
+var mics_etid='04951fc0-74c5-11e6-87b4-45cb44df52dd';if(window.mics && window.mics._setConfig){mics._setConfig({etid:mics_etid})};if(window.mics_touch && window.mics_touch._setConfig){mics_touch._setConfig({etid:mics_etid})};

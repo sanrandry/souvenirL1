@@ -1,0 +1,23 @@
+{
+  "name": "projethtmlavectsantamialypine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://randrysantatra.github.io/souvenirL1",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randrysantatra/souvenirL1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randrysantatra/souvenirL1/issues"
+  },
+  "homepage": "https://github.com/randrysantatra/souvenirL1#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

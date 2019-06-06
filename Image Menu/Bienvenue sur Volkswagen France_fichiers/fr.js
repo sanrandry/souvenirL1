@@ -1,0 +1,27 @@
+vwd4 = (typeof(vwd4) === 'undefined') ? {} : vwd4;
+vwd4.config = (typeof(vwd4.config) === 'undefined') ? {} : vwd4.config;
+vwd4.config.enableDebug = false;
+vwd4.config.siteHost = "http://www.volkswagen.fr";
+vwd4.config.siteSecureHost = "https://app-ssl.volkswagen.fr";
+vwd4.config.isLeaderInstance = true;
+vwd4.config.isSecure = window.location.protocol == "https:";
+vwd4.config.enableFallback = false;
+vwd4.config.classJavascriptEnabled = "vwd4_jsEnabled";
+vwd4.config.minFlashPlayerVersion = "10.0.0";
+vwd4.config.isWCM = function() { var isInsideContentfinder= typeof(window.top.CQ_ContentFinder) !== 'undefined'; return isInsideContentfinder; }
+vwd4.config.ajaxUrlAddition = ".ajax";
+vwd4.config.splitCharHashElement = "|";
+vwd4.config.splitCharHashKeyValue = "=";
+vwd4.config.splitCharHashFlashId = "@";
+vwd4.config.deepLinkFirstChar = "/";
+vwd4.config.defaultHashValue = "none";
+jQuery.address.strict("");
+vwd4.config.getTrackConfig = function() { return {}; };
+vwd4.config.onAjaxLoadTrack = function() {};
+vwd4.config.onClickTrack = function() {};
+vwd4.config.share = (typeof(vwd4.config.share) === 'undefined') ? {} : vwd4.config.share;
+vwd4.config.homepageRotation = 3;
+vwd4.config.share.enabled = false;
+vwd4.config.deviceMatchEnabled  = (location.search.match(/no-device-detection/i) !== null) ? false : true;
+vwd4.config.deviceMatchEndpoint = (vwd4.config.isSecure ? vwd4.config.siteSecureHost : vwd4.config.siteHost)+"/fr/_jcr_content.ajaxdevicedetection.json/ua={{hash}}.json";
+vwd4.config.second_level_navigation_spacing = false;
