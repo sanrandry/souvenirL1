@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/sanrandry/souvenirL1",
+  "homepage": "https://sanrandry.github.io/souvenirL1",
   "scripts": {
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d ~"
   },
   "repository": {
     "type": "git",
